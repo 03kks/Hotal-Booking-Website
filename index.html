@@ -8,8 +8,33 @@
 </head>
 <body>
     <img src="assests/images/logo.png" alt="" width="100px">
-    <div>Header Div</div>
-    <div>Cement Div</div>
-    <div>Footer Div</div>
+  
+    <div id="Main">
+        <header>
+        </header>
+        <div id="content">
+          <div id="search">
+            <input type="text" placeholder="City" id="searchBar"/>
+            <div id="searchResult">
+            </div>
+          </div>
+          <div id="cards">
+            <div class="cityCards">
+              <div class="image">
+                <a href="list.html?city=delhi" target="_self"
+                  ><img
+                    src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                    class="cityImage"
+                  />
+                  <div class="overlay">
+                    <div class="text">Delhi</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div id="view">
+                <button class="btn btn-secondary" onclick="viewMore()" role="button" id="viewMoreBtn">View More</button>
+              </div>
 </body>
 </html>
