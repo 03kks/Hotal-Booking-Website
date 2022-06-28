@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: #bc8f8f;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo {
+    margin-left: 1%;
+}
+
+#login {
+    color: black;
+    margin-right: 2%;
+}
+
+footer {
+    background-color: #bc8f8f;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+#contactUs {
+    color: black;
+    margin-left: 2%;
+}
+
+.socialImage {
+    margin-right: 2%;
+}
+
+#copyright {
+    font-size: 10px;
+}
+h5{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-weight:bolder;
+}

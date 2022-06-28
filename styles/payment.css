@@ -1,0 +1,52 @@
+.customerInformation {
+  margin: 2%;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: rosybrown;
+  justify-content: space-evenly
+}
+
+.tariffDetails {
+  margin: 2%;
+  padding: 1% 2%;
+}
+
+.content {
+  margin-top: 6%;
+  margin-bottom: 2%;
+  display: flex;
+}
+
+.hotelDetails {
+  background-color: rgb(132, 136, 139);
+  width: 50%;
+  height: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hotelText {
+  margin: auto;
+}
+
+
+
+.font {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight: bolder;
+}
+
+#contactUs{
+  background-color: rgb(29, 159, 235);
+}
+#payNow{
+  padding-top: 60px;
+
+}
+#payNow:hover{
+  color: rgb(17, 245, 17);
+}

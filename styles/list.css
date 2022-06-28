@@ -1,0 +1,54 @@
+#list {
+  margin: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#map {
+  display: none;
+}
+
+
+
+#listlink {
+
+  display: inline;
+  font-weight: bolder;
+  padding: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+
+  display: flex;
+  margin-left: 42%;
+  text-decoration: none;
+
+}
+
+#maplink {
+
+  display: inline;
+  font-weight: bolder;
+
+}
+
+.hotelText {
+  margin: 2%;
+}
+
+.listCityImage {
+  display: flex;
+  justify-content: flex-start;
+  width: 40%;
+  background-color: lightgray;
+  margin: 2%;
+}
+
+#contactUs{
+  background-color: rgb(29, 159, 235);
+}
+
