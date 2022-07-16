@@ -1,52 +1,67 @@
-.customerInformation {
-  margin: 2%;
+#imageHotel{
+  height: 250px;
+  width: 100%;
+}
+#hotel{
   display: flex;
-  border: 1px solid black;
-  border-radius: 5px;
-  margin-left: 2%;
-  margin-right: 2%;
+  flex-direction: row;
+  background-color: rgb(132,136,139);
+  height: auto;
+  width: 70%;
+  margin: 2% auto;
+}
+#content{
+  display: flex;
+  flex-direction: column;
+}
+#hotelDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 2%;
+}
+#payDetails{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: rosybrown;
-  justify-content: space-evenly
-}
-
-.tariffDetails {
-  margin: 2%;
+  align-items: center;
+  margin: 0 2% 20% 2%;
+  border: 1px black solid;
+  border-radius: 5px;
   padding: 1% 2%;
+  height: auto;
 }
-
-.content {
-  margin-top: 6%;
-  margin-bottom: 2%;
-  display: flex;
+#customerInfo {
+  text-align: left;
 }
-
-.hotelDetails {
-  background-color: rgb(132, 136, 139);
-  width: 50%;
-  height: 20%;
-  margin: auto;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.hotelText {
-  margin: auto;
+strong {
+  font-family: cursive;
 }
 
 
 
-.font {
-  font-family: Comic Sans MS, Comic Sans, cursive;
-  font-weight: bolder;
-}
-
-#contactUs{
-  background-color: rgb(29, 159, 235);
-}
-#payNow{
-  padding-top: 60px;
-
-}
-#payNow:hover{
-  color: rgb(17, 245, 17);
+@media only screen and (max-width: 575px) {
+  #hotel {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+  }
+  #radissonHotel {
+      width: 90%;
+      padding-left: 5%;
+      margin: 1%;
+  }
+  #hotelDetails {
+      text-align: center;
+  }
+  #payDetails {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+  #payButton {
+      align-self: center;
+  }
 }

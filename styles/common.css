@@ -1,62 +1,67 @@
-html,
+
 body {
     height: 100%;
     width: 100%;
-    margin: 0;
-}
-
-a {
+    margin: 0px;
+    background-color: #e0e0e0;
+    font-family: "Ubuntu", sans-serif;
+  }
+  header {
+    background-color: rosybrown;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 500;
+  }
+  footer {
+    background-color: rosybrown;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 500;
+  }
+  a {
     text-decoration: none;
     color: black;
-}
-
-body {
-    background-color: #e0e0e0;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-header {
-    background-color: #bc8f8f;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-#logo {
+  }
+  #Main {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+  #logo {
+    height: 60px;
+    width: 60px;
     margin-left: 1%;
-}
-
-#login {
-    color: black;
+  }
+  #loginButton {
     margin-right: 2%;
-}
-
-footer {
-    background-color: #bc8f8f;
-    position: sticky;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-}
-
-#contactUs {
-    color: black;
+  }
+  #social {
+    margin-right: 2%;
+  }
+  #copyright {
+    font-size: 12px;
+  }
+  #contactLink {
     margin-left: 2%;
-}
-
-.socialImage {
-    margin-right: 2%;
-}
-
-#copyright {
-    font-size: 10px;
-}
-h5{
-    font-family:Comic Sans MS, Comic Sans, cursive;
-    font-weight:bolder;
-}
+  }
+  .socialMedia {
+    height: 20px;
+    width: 22px;
+  }
+  #Main {
+    display: none;
+  }

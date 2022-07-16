@@ -1,48 +1,88 @@
-.imageContainer {
-  width: 70%;
+#radissonHotel {
+  height: 350px;
+  justify-content: center;
+  text-align: center;
+  margin: 1% 0;
 }
-
-.radissonImage {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 20%;
+#bookingForm {
+  margin: 5%;
 }
-
-.bookingFormDetails {
-  width: 30%;
-  border-left: 1px solid black;
+#details {
+  margin: 1% 4% 20% 4%;
 }
-
-.hotelDescription {
-  margin: 1% 4% 2% 4%;
+#top {
+  display: flex;
+  justify-content: space-around;
+  height: 370px;
+  margin: 2% 4%;
 }
-
-.formDetails {
-  padding: 5%;
+#detailImage {
+  border: 1px solid black;
+  display: block;
+  width: 66%;
+  height: 370px;
+  text-align: center;
+}
+#bookingForm {
+  margin: 0;
+  padding: 0 2%;
+  border: 1px solid black;
+  border-left: none;
+  width: 34%;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#bookButton {
+  padding: 2% 4%;
+}
+#submitButton {
+  text-align: center;
+}
+.field {
   display: flex;
   justify-content: space-between;
-
 }
-
-.container {
-  display: flex;
-  border: 1px solid black;
-  max-height: 400px;
-  margin: 30px;
-}
-
-form {
-  margin: 20px;
-}
-
-.bookNow {
-  padding: 5px;
-  margin-left: 125px;
-}
-
-.inputBox {
+.fieldBox {
   width: 60%;
 }
-#contactUs{
-  background-color: rgb(29, 159, 235);
+h5 {
+  font-family: cursive;
 }
+
+.fill {
+  color: orange;
+}
+.reSize {
+  height: 350px;
+  width: 70%;
+  margin-top: 1%;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+@media only screen and (max-width: 575px) {
+    #top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 370px;
+        margin: 50% 4% 2% 4%;
+        flex-wrap: nowrap;
+    }
+    #detailImage {
+        width: 100%;
+    }
+    #bookingForm {
+        width: 100%;
+        margin-bottom: 50%;
+        border-left: 1px solid black;
+    }
+  }

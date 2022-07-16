@@ -1,54 +1,99 @@
-#list {
-  margin: 2%;
-  display: flex;
-  flex-wrap: wrap;
+#loader {
+  height: 100%;
+  width: 100%;
+}
+.hotels a:hover {
+  color: black;
+}
+#content .btn-outline-primary {
+  border: none;
+  color: black;
+}
+#content .btn-outline-primary:hover {
+  color: black;
+  background-color: transparent;
+}
+#content .btn-outline-primary:focus {
+  box-shadow: none;
+  color: black;
+}
+#content .btn-outline-primary:active {
+  box-shadow: none;
+  color: black;
+}
+#content .btn-check:checked + .btn-outline-primary {
+  box-shadow: none;
+  color: black;
+  background-color: #0d6efd;
+}
+#content {
+  margin-top: 2%;
+  text-align: center;
 }
 
-#map {
+#listView {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 2%;
+  grid-row-gap: 3%;
+  margin: 2% 2% 10% 2%;
+  height: auto;
+}
+
+#listView img {
+  height: 200px;
+  width: 250px;
+}
+
+.hotels {
+  background-color: lightgrey;
+  width: 95%;
+  color: black;
+  display: flex;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.clickImage {
+  display: flex;
+}
+.hotels a {
+  text-decoration: none;
+  color: black;
+}
+.hotelDetails {
+  margin-left: 4%;
+  text-align: left;
+  margin-top: 4%;
+}
+.hotels:hover {
+  background-color: rosybrown;
+}
+#mapView {
+  margin-top: 15px;
+  height: 600px;
+  width: 100%;
+}
+#mapView-button:checked ~ #mapView {
+  display: grid;
+  width: 100%;
+}
+#mapView-button:checked ~ #listView {
   display: none;
 }
 
-
-
-#listlink {
-
-  display: inline;
-  font-weight: bolder;
-  padding: 25px;
+#listView-button:checked ~ #listView {
+  display: grid;
 }
-
-li {
-  list-style: none;
+#listView-button:checked ~ #mapView {
+  display: none;
 }
-
-ul {
-
-  display: flex;
-  margin-left: 42%;
-  text-decoration: none;
-
+.fill {
+  color: orange;
 }
-
-#maplink {
-
-  display: inline;
-  font-weight: bolder;
-
+@media only screen and (max-width: 575px) {
+  #listView {
+    grid-template-columns: 100%;
+  }
 }
-
-.hotelText {
-  margin: 2%;
-}
-
-.listCityImage {
-  display: flex;
-  justify-content: flex-start;
-  width: 40%;
-  background-color: lightgray;
-  margin: 2%;
-}
-
-#contactUs{
-  background-color: rgb(29, 159, 235);
-}
-
