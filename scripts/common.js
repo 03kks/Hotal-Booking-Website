@@ -38,7 +38,7 @@ if(localStorage.isLogin === "false" || localStorage.isLogin == null) {
     data-bs-target="#contactUsModal"
     >Contact Us</a
   >
-  <div id="copyright"><span>&copy; 2020 ROOM SEARCH PVT. LTD</span></div>
+  <div id="copyright"><span>&copy; 2022 ROOM SEARCH PVT.LTD</span></div>
   <div id="social">
     <a href="https://www.facebook.com" target="_blank"
       ><img src="./assests/images/facebook.png" class="socialMedia"
