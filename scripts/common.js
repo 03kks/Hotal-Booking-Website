@@ -38,7 +38,7 @@ if(localStorage.isLogin === "false" || localStorage.isLogin == null) {
     data-bs-target="#contactUsModal"
     >Contact Us</a
   >
-  <div id="copyright"><span>&copy; 2022 ROOM SEARCH PVT.LTD</span></div>
+  <div id="copyright"><span>&copy; 2022 Room Search Pvt.Ltd</span></div>
   <div id="social">
     <a href="https://www.facebook.com" target="_blank"
       ><img src="./assests/images/facebook.png" class="socialMedia"
@@ -141,7 +141,7 @@ if(localStorage.isLogin === "false" || localStorage.isLogin == null) {
         </div>
         <div class="modal-body">
           <p>Thank you for reaching out!!!</p>
-          <p>Please enter your email and we will get back to you.</p>
+          <p>Please enter your email Id and we will get back to you...</p>
           <div class="row g-3 align-items-center">
             <div class="col-auto">
               <label for="inputEmail" class="col-form-label">Email:</label>
@@ -164,7 +164,7 @@ if(localStorage.isLogin === "false" || localStorage.isLogin == null) {
     </div>
   </div>`
   
-  //adding event listeners for login functionality
+  //Addding event listeners for login functionality
   document.querySelector("#loginModalBtn").addEventListener("click", function(){
     login();
   })
